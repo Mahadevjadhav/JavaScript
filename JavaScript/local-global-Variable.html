@@ -1,0 +1,15 @@
+<html>
+<head></head>
+<body onload="myfunction();">
+
+	<script type="text/javascript">
+		var myVar = "global";
+		document.write(myVar);
+		function myfunction() {
+			var myVar = "local";
+			document.write(myVar);
+		}
+	</script>
+	
+</body>
+</html>
